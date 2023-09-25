@@ -1,0 +1,10 @@
+# requirements.txt
+
+# GUI toolkit
+tkinter
+
+# Numerical computing library
+numpy==1.19.2
+
+# Data analysis and manipulation library
+pandas>=1.1.4
