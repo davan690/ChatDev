@@ -1,33 +1,43 @@
 # Communicative Agents for Software Development
 
 <p align="center">
-  <img src='./misc/logo1.png' width=600>
+  <img src='./misc/logo1.png' width=550>
 </p>
 
 <p align="center">
     【English | <a href="README-Chinese.md">Chinese</a> | <a href="README-Japanese.md">Japanese</a> | <a href="README-Korean.md">Korean</a>】
 </p>
+<p align="center">
+    【📚 <a href="wiki.md">Wiki</a> | 🚀 <a href="wiki.md#local-demo">Local Demo</a> | 👥 <a href="Contribution.md">Community Built Software</a> | 🔧 <a href="wiki.md#customization">Customization</a>】
+</p>
+
 
 ## 📖 Overview
 
 - **ChatDev** stands as a **virtual software company** that operates through various **intelligent agents** holding
-  different roles, including Chief Executive Officer, Chief Technology Officer, Programmer, Tester, and more. These
+  different roles, including Chief Executive Officer <img src='online_log/static/figures/ceo.png' height=20>, Chief Product Officer <img src='online_log/static/figures/cpo.png' height=20>, Chief Technology Officer <img src='online_log/static/figures/cto.png' height=20>, programmer <img src='online_log/static/figures/programmer.png' height=20>, reviewer <img src='online_log/static/figures/reviewer.png' height=20>, tester <img src='online_log/static/figures/tester.png' height=20>, art designer <img src='online_log/static/figures/designer.png' height=20>. These
   agents form a multi-agent organizational structure and are united by a mission to "revolutionize the digital world
   through programming." The agents within ChatDev **collaborate** by participating in specialized functional seminars,
   including tasks such as designing, coding, testing, and documenting.
 - The primary objective of ChatDev is to offer an **easy-to-use**, **highly customizable** and **extendable** framework,
   which is based on large language models (LLMs) and serves as an ideal scenario for studying collective intelligence.
+<p align="center">
+  <img src='./misc/company.png' width=600>
+</p>
 
 ## 📰 News
 
-* **September 1, 2023: The Art mode is available now! You can use agent to generate images used in the software,
-  try ``python3 run.py --config "Art"``.** See [example](WareHouse/gomokugameArtExample_THUNLP_20230831122822) here.
-* August 28, 2023: The system is publicly available.
-* August 17, 2023: The V1.0.0 version was ready for release.
-* July 30, 2023: Users can customize ChatChain, Phase, and Role settings. Additionally, both online Log mode and replay
+* September 20th, 2023: The **Human-Agent-Interaction** mode is now available! You can get involved with the ChatDev team by playing the role of reviewer <img src='online_log/static/figures/reviewer.png' height=20> and making suggestions to the programmer <img src='online_log/static/figures/programmer.png' height=20>;
+  try ``python3 run.py --task [description_of_your_idea] --config "Human"``. See [guide](wiki.md#human-agent-interaction) and [example](WareHouse/Gomoku_HumanAgentInteraction_20230920135038).
+  <center><img src='misc/Human_intro.png' width=800></center>
+* September 1st, 2023: The **Art** mode is available now! You can activate the designer agent <img src='online_log/static/figures/designer.png' height=20> to generate images used in the software;
+  try ``python3 run.py --task [description_of_your_idea] --config "Art"``. See [guide](wiki.md#art) and [example](WareHouse/gomokugameArtExample_THUNLP_20230831122822).
+* August 28th, 2023: The system is publicly available.
+* August 17th, 2023: The v1.0.0 version was ready for release.
+* July 30th, 2023: Users can customize ChatChain, Phase, and Role settings. Additionally, both online Log mode and replay
   mode are now supported.
-* July 16, 2023: The [preprint paper](https://arxiv.org/abs/2307.07924) associated with this project was published.
-* June 30, 2023: The initial version of the `ChatDev` repository was released.
+* July 16th, 2023: The [preprint paper](https://arxiv.org/abs/2307.07924) associated with this project was published.
+* June 30th, 2023: The initial version of the ChatDev repository was released.
 
 ## ❓ What Can ChatDev Do?
 
